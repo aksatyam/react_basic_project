@@ -16,7 +16,7 @@ class AppRoute extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Native! Routes Page
         </Text>
       </View>
     );
