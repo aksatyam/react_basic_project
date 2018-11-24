@@ -11,7 +11,7 @@ import {
   View
 } from 'react-native';
 
-class NoteTaker extends Component {
+class AppMain extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -42,4 +42,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default NoteTaker;
+export default AppMain;
