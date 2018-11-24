@@ -10,6 +10,7 @@ import {
   Text,
   View
 } from 'react-native';
+import theme from '../styles/theme.style.js';
 
 class AppRoute extends Component {
   render() {
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: theme.FONT_SIZE_SMALL,
     textAlign: 'center',
     margin: 10,
   },
