@@ -6,11 +6,10 @@
 
 import React from 'react';
 import AppRoute from './routes/index';
-import Home from './components/Home/Home.component';
 class AppMain extends React.Component {
   render() {
     return (
-      <Home/>
+      <AppRoute/>
     );
   }
 }
